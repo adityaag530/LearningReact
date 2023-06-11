@@ -1,17 +1,21 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
+// import React from 'react';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <App />
-  </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// index.js is the first file to be get executed
+// React-dom is a dependency  and react is also a depency or package.
+// react are split in two diff dependencies
+// craete root works as place holder where to place the render component
+// we are able to write html in js because of JSX - js-xml
+// chrome dev tools -> sources tab -> static/js -> all transofrmed code with react and react dom libs
+// clear instruction in vanilla js -> imperative approach
+// react -> declarative approact -> define the end state and react will take care _> like adding para in root element
+// add new component in new files
