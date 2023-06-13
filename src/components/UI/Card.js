@@ -6,7 +6,7 @@
 
 import './Card.css';
 
-function Card(props){
+const Card = (props) => {
     // to add multiple classnames in Card component whether in expenseItem or directyl in the func we nee to create a constant and pass as props
 
     const classes = 'card ' + props.className;

@@ -5,7 +5,7 @@ import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 
 
-function ExpenseItem(props) {
+const ExpenseItem = (props) => {
   // const expenseDate = new Date(2023, 5, 28);
   // const expenseTitle = "Super Nova Car Insurance";
   // const expenseAmount =  23423.234;

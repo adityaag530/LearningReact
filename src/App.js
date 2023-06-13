@@ -1,8 +1,8 @@
-import React from 'react';
-import Expenses from './components/Expenses/Expenses';
+import React from "react";
+import Expenses from "./components/Expenses/Expenses";
 
-
-function App() {
+//arrow function
+const App = () => {
   const expenses = [
     {
       id: "e1",
@@ -33,7 +33,7 @@ function App() {
   //old way of doing
   // return React.createElement(
   //   'div',
-  //   {}, 
+  //   {},
   //   React.createElement('h2', {}, "Let's get Started!"),
   //   React.createElement(Expenses, { items:expenses } )
   // );
@@ -42,10 +42,10 @@ function App() {
     <div className="App">
       <h1>Learning React!</h1>
       {/* <p>This is also visible</p> */}
-      <Expenses items={expenses}/>
+      <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
 // app -> root component
